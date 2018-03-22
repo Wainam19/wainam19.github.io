@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Try To Catch It</title>
+	<style>
+		#running-btn{
+			height: 100px;
+			width: 100px;
+			background: #00ffff;
+			position: fixed;
+		}
+	</style>
+</head>
+<body>
+	<h4>You have clicked <span id="count">0</span> times!</h4>
+	<div id="running-btn"></div>
+</body>
+<script>
+	let counter = 0
+	const btn = document.getElementById('running-btn')
+	const count =document.getElementById('count')
+	const colors = ['red', 'blue', 'green', 'yellow', 'purple']
+	
+	btn.onclick = function() {
+	 counter++
+	 count.innerHTML = counter
+	 btn.style.background = colors[Math.floor(Math.random()*5)
+	 ]
+	} 
+
+
+	btn.onmouseover = function() {
+		console.log('you are on me')
+		btn.style.top = Math.random() * 500 + 'px'
+		btn.style.left = Math.random() * 500 + 'px'
+
+	}
+</script>
+</html>

@@ -1,0 +1,19 @@
+body {
+	background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/05/Images-Wallpaper-HD-Background.png);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#input {
+	width: 350px;
+}
+
+#button {
+	background-color: #00ffff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 28px;
+}
