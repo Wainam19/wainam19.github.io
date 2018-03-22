@@ -1,0 +1,31 @@
+body {
+	background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/cool-background-wallpaper-7.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+button {
+	background-color: #555555; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+input {
+	background-color: darkgrey;
+	width: 400px;
+}
+
+textarea {
+	background-color: darkgrey;
+	width: 400px;
+}

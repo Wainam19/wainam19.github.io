@@ -1,0 +1,30 @@
+body {
+	background-image: url(http://simplywallpaper.net/pictures/2010/12/08/red-texture-wallpaper.jpg); 
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	color: red;
+	font-family: 'Limelight', cursive;
+}
+
+#timer {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	font-size: 24px;
+	border-radius: 50%;
+	background: darkgrey;
+	height: 40px;
+	width: 40px;
+	border:solid 1px black;
+	text-align: center;
+	line-height: 37px;
+	color: black;
+}
+
+img {
+	border-radius: 50%;
+}
